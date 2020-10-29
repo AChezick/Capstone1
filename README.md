@@ -49,7 +49,12 @@ Datetime indexing was completed so I could reindex this data frame and aggregrat
 # Visulation
 
 Starting with the overview. You can see the average annual PM 10 numbers are consistent. The average of all the years 22.7
-https://github.com/AChezick/Capstone1/blob/main/annual_pm10.png 
+
+![](https://github.com/AChezick/Capstone1/blob/main/annual_pm10.png )
+
+![](https://github.com/AChezick/Capstone1/blob/main/annual_heart_events.png)
+
+![](https://github.com/AChezick/Capstone1/blob/main/join_plot.png) 
 
 # Further exploration
 This capstone is far from a complete analysis. Only 4 of 13 sites were used to correlate with significant death events. 
