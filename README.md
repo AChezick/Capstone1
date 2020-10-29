@@ -20,6 +20,14 @@ Impacts on death rates was assessed data from the Centers for Disease Control (C
 
 The data was well organized and did not require much text cleaning. However, determining how to grab data to perform the hypothesis test was considerable.
 
+### First 5 rows of Weekly Death Events
+| MMWR_Year | MMWR_Week | Week_End_Date | All_Cause | Diabetes | Alzheimer | Influenza_pneumonia | Chronic_lower_respiratory | Other_diseases_of_respiratory | Nephritis, nephrotic_syndrome | Diseases_of_heart | Cerebrovascular_diseases | All Cause | Influenza_and_pneumonia |
+|-----------|-----------|---------------|-----------|----------|-----------|---------------------|---------------------------|-------------------------------|-------------------------------|-------------------|--------------------------|-----------|-------------------------|
+| 2014      | 1         | 01/04/2014    | 416.0     | 12.0     |           | 14.0                | 33                        |                               |                               | 96                | 22                       |           |                         |
+| 2014      | 2         | 01/11/2014    | 764.0     | 16.0     | 21.0      | 30.0                | 59                        | 14.0                          | 11.0                          | 145               | 41                       |           |                         |
+| 2014      | 3         | 01/18/2014    | 702.0     | 15.0     | 31.0      | 28.0                | 47                        |                               | 10.0                          | 136               | 36                       |           |                         |
+| 2014      | 4         | 01/25/2014    | 638.0     | 16.0     | 22.0      | 28.0                | 53                        | 10.0                          |                               | 129               | 36                       |           |                         |
+| 2014      | 5         | 02/01/2014    | 725.0     | 15.0     | 25.0      | 27.0                | 44                        |                               | 12.0                          | 164               | 44                       |           |                         |
 
 
 --Note how the data are multi-dimensional.
