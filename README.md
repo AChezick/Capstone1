@@ -48,6 +48,7 @@ Datetime indexing was completed so I could reindex this data frame and aggregrat
 
 # Visulation
 
+Starting with the overview. You can see the average annual PM 10 numbers are consistent. The average of all the years 22.7
 
 
 # Further exploration
