@@ -6,18 +6,21 @@ The link between air-quality and heath outcomes has been known ,essentially, for
 # Question:
 Can I detect any relationships among the air quality measures of PM 2.5 & PM 10 with emergencey room visits for all of Colorado?
 
-Rational:
+## Rational:
+
 *According to data form Wikipedia(4) roughly 3 million of Colorado's six-million residents reside within the Denver-Aurora-Lakewood Metropolitan area.
 
-If there are any impacts from poor air quality on hospital death rates, this area is more likely than any other to have impacts on the overall death rates.
+If there are any impacts from poor air quality on hospital death rates, this area is *more likely* than any other to have impacts on the overall death rates.
 
 
 # Data:
-The Environmental Protection Adgencey (EPA) has archives of air quality measures with columns of interest for various measures (2). I used data from their AirNow program, which uses a mix of fully and non-fully verrifed data. Not all data was certifed through the regulatory processes associated with the EPA Air Quality System and cannot be used to informregulation decisions.
+The Environmental Protection Adgencey (EPA) has archives of air quality measures with columns of interest for various measures (2). I used data from their AirNow program, which uses a mix of fully and non-fully verrifed data. Not all data was certifed through the regulatory processes associated with the EPA Air Quality System and **cannot** be used to inform regulation decisions.
 
-Impacts on death rates was assessed data from the Centers for Disease Control (CDC). I was able to locate national hospital data for weekly death counts by cause (3). These data do not represent the total amount of deaths in Colorado during that week. 
+Impacts on death rates was assessed data from the Centers for Disease Control (CDC). I was able to locate national hospital data for weekly death counts by cause (3). These data **do not represent the total amount of deaths in Colorado during that week**. 
 
-The data was well organized and did not require much text cleaning. However, determining how to grab data and perform the hypothesis test was considerable. 
+The data was well organized and did not require much text cleaning. However, determining how to grab data to perform the hypothesis test was considerable.
+
+
 
 --Note how the data are multi-dimensional.
 
@@ -29,6 +32,7 @@ The data was well organized and did not require much text cleaning. However, det
 
 
 Refereces
+
 1.Retrieved from World Health Organiztion 
 https://www.who.int/airpollution/ambient/health-impacts/en/
 
