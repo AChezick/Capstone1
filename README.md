@@ -1,2 +1,8 @@
-# Capstone1
-Demonstration of skills and EDA
+# Denver Metro Air Quality: Influence on Hospital Death Rates
+Motivation
+
+
+Data
+
+
+
