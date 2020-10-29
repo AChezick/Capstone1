@@ -13,7 +13,7 @@ Can I detect any relationships among the air quality measures of PM 2.5 & PM 10 
 If there are any impacts from poor air quality on hospital death rates, this area is *more likely* than any other to have impacts on the overall death rates.
 
 
-# Data:
+# Data & Processing:
 The Environmental Protection Adgencey (EPA) has archives of air quality measures with columns of interest for various measures (2). I used data from their AirNow program, which uses a mix of fully and non-fully verrifed data. Not all data was certifed through the regulatory processes associated with the EPA Air Quality System and **cannot** be used to inform regulation decisions.
 
 Impacts on death rates was assessed data from the Centers for Disease Control (CDC). I was able to locate national hospital data for weekly death counts by cause (3). These data **do not represent the total amount of deaths in Colorado during that week**. 
@@ -30,6 +30,9 @@ The data was well organized and did not require much text cleaning. However, det
 | 2014      | 4         | 01/25/2014    | 638.0     | 16.0     | 22.0      | 28.0                | 53                        | 10.0                          |                               | 129               | 36                       |           |                         |
 | 2014      | 5         | 02/01/2014    | 725.0     | 15.0     | 25.0      | 27.0                | 44                        |                               | 12.0                          | 164               | 44                       |           |                         |
 
+I combined two similar data frames to create the master data frame for death events. After cleaning the data frame was 313:14. 
+
+
 ### First 5 Rows of Air Quality Data from AirNow
 | Date       | Source | Site ID  | POC | Daily Mean PM2.5 Concentration | UNITS    | DAILY_AQI_VALUE | Site Name                              | DAILY_OBS_COUNT | PERCENT_COMPLETE | AQS_PARAMETER_CODE | AQS_PARAMETER_DESC       | CBSA_CODE | CBSA_NAME                  | STATE_CODE | STATE    | COUNTY_CODE | COUNTY | SITE_LATITUDE    | SITE_LONGITUDE      |
 |------------|--------|----------|-----|--------------------------------|----------|-----------------|----------------------------------------|-----------------|------------------|--------------------|--------------------------|-----------|----------------------------|------------|----------|-------------|--------|------------------|---------------------|
@@ -39,13 +42,16 @@ The data was well organized and did not require much text cleaning. However, det
 | 2014-01-11 | AQS    | 80010006 | 1   | 3.2                            | ug/m3 LC | 13              | Alsup Elementry School - Commerce City | 1               | 100.0            | 88101              | PM2.5 - Local Conditions | 19740     | Denver-Aurora-Lakewood, CO | 8          | Colorado | 1           | Adams  | 39.8260070009282 | -104.93743799999999 |
 | 2014-01-14 | AQS    | 80010006 | 1   | 4.1                            | ug/m3 LC | 17              | Alsup Elementry School - Commerce City | 1               | 100.0            | 88101              | PM2.5 - Local Conditions | 19740     | Denver-Aurora-Lakewood, CO | 8          | Colorado | 1           | Adams  | 39.8260070009282 | -104.93743799999999 |
 
+Something to note is the POC column. This column and value indicates the observation number for that particular site. Since there are 13 different sites with 1-3 measures for PM 2.5 and PM 10 (and in no particular pattern for the number of measures per site per day) taking the average of all measures for each site ID for each day. My ending air quality data frame had roughly 25,000 entries post processing.
+
+Datetime indexing was completed so I could reindex this data frame and aggregrate by date into weeks for each site ID. Due to large gaps and wanting the most overlap of PM 2.5 & PM 10 measures, I chose the three sites that had the most data points.
 
 # Visulation
 
 
 
 # Further exploration
-
+This capstone is far from a complete analysis. Only 4 of 13 sites were used to correlate with significant death events. 
 
 Refereces
 
