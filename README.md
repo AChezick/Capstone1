@@ -20,7 +20,8 @@ Impacts on death rates was assessed data from the Centers for Disease Control (C
 
 The data was well organized and did not require much text cleaning. However, determining how to grab data to perform the hypothesis test was considerable.
 
-### First 5 rows of Weekly Death Events
+### First 5 rows of Weekly Death Events Post Cleaning
+
 | MMWR_Year | MMWR_Week | Week_End_Date | All_Cause | Diabetes | Alzheimer | Influenza_pneumonia | Chronic_lower_respiratory | Other_diseases_of_respiratory | Nephritis, nephrotic_syndrome | Diseases_of_heart | Cerebrovascular_diseases | All Cause | Influenza_and_pneumonia |
 |-----------|-----------|---------------|-----------|----------|-----------|---------------------|---------------------------|-------------------------------|-------------------------------|-------------------|--------------------------|-----------|-------------------------|
 | 2014      | 1         | 01/04/2014    | 416.0     | 12.0     |           | 14.0                | 33                        |                               |                               | 96                | 22                       |           |                         |
@@ -29,8 +30,15 @@ The data was well organized and did not require much text cleaning. However, det
 | 2014      | 4         | 01/25/2014    | 638.0     | 16.0     | 22.0      | 28.0                | 53                        | 10.0                          |                               | 129               | 36                       |           |                         |
 | 2014      | 5         | 02/01/2014    | 725.0     | 15.0     | 25.0      | 27.0                | 44                        |                               | 12.0                          | 164               | 44                       |           |                         |
 
+### First 5 Rows of Air Quality Data from AirNow
+| Date       | Source | Site ID  | POC | Daily Mean PM2.5 Concentration | UNITS    | DAILY_AQI_VALUE | Site Name                              | DAILY_OBS_COUNT | PERCENT_COMPLETE | AQS_PARAMETER_CODE | AQS_PARAMETER_DESC       | CBSA_CODE | CBSA_NAME                  | STATE_CODE | STATE    | COUNTY_CODE | COUNTY | SITE_LATITUDE    | SITE_LONGITUDE      |
+|------------|--------|----------|-----|--------------------------------|----------|-----------------|----------------------------------------|-----------------|------------------|--------------------|--------------------------|-----------|----------------------------|------------|----------|-------------|--------|------------------|---------------------|
+| 2014-01-02 | AQS    | 80010006 | 1   | 16.2                           | ug/m3 LC | 60              | Alsup Elementry School - Commerce City | 1               | 100.0            | 88101              | PM2.5 - Local Conditions | 19740     | Denver-Aurora-Lakewood, CO | 8          | Colorado | 1           | Adams  | 39.8260070009282 | -104.93743799999999 |
+| 2014-01-05 | AQS    | 80010006 | 1   | 4.4                            | ug/m3 LC | 18              | Alsup Elementry School - Commerce City | 1               | 100.0            | 88101              | PM2.5 - Local Conditions | 19740     | Denver-Aurora-Lakewood, CO | 8          | Colorado | 1           | Adams  | 39.8260070009282 | -104.93743799999999 |
+| 2014-01-08 | AQS    | 80010006 | 1   | 24.8                           | ug/m3 LC | 78              | Alsup Elementry School - Commerce City | 1               | 100.0            | 88101              | PM2.5 - Local Conditions | 19740     | Denver-Aurora-Lakewood, CO | 8          | Colorado | 1           | Adams  | 39.8260070009282 | -104.93743799999999 |
+| 2014-01-11 | AQS    | 80010006 | 1   | 3.2                            | ug/m3 LC | 13              | Alsup Elementry School - Commerce City | 1               | 100.0            | 88101              | PM2.5 - Local Conditions | 19740     | Denver-Aurora-Lakewood, CO | 8          | Colorado | 1           | Adams  | 39.8260070009282 | -104.93743799999999 |
+| 2014-01-14 | AQS    | 80010006 | 1   | 4.1                            | ug/m3 LC | 17              | Alsup Elementry School - Commerce City | 1               | 100.0            | 88101              | PM2.5 - Local Conditions | 19740     | Denver-Aurora-Lakewood, CO | 8          | Colorado | 1           | Adams  | 39.8260070009282 | -104.93743799999999 |
 
---Note how the data are multi-dimensional.
 
 # Visulation
 
