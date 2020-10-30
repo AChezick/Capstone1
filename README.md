@@ -108,11 +108,11 @@ Since this data cannot be used for leglistation I considered this the entire sam
 
 ![]( https://github.com/AChezick/Capstone1/blob/main/join_plot.png ) 
 
-#### For hypothesis testing I separated weekly events into two categories based six years of data for that Site. 
+#### For hypothesis testing I separated weekly events into two categories based six years of data for that Site ID. 
 
 Ho: I **will NOT** be able to detect significant increased differences in average death events at 0 or +1 weeks of high PM levels.
 
-Ho: I **will** be able to detect significant increased differences in average death events at 0 or +1 weeks of high PM levels.
+Ha: I **will** be able to detect significant increased differences in average death events at 0 or +1 weeks of high PM levels.
 
 
 ![]( https://github.com/AChezick/Capstone1/blob/main/images/scatter1.png  )
