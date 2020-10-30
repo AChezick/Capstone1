@@ -100,6 +100,14 @@ Data from this site was missing for 2017.
 
 ![]( https://github.com/AChezick/Capstone1/blob/main/images/annual25.png ) 
 
+___
+
+Among the three sites tested The Daily Mean Concentration was fairly consistent.
+
+![]( https://github.com/AChezick/Capstone1/blob/main/images/variance.png ) 
+Means == 7.3 , 9.6, 7.4 
+___
+
 Again, visually there appears to be some association between PM levels and heart events. It would again be important to state that its impossible to assign a causal link from a single event for a chronic disease (or any dynamical system). The goal of this capstone was to see if I could detect a statisitical association among the means for weeks on or after air quality levels in the worst 5% range from these measures.
 
 ![]( https://github.com/AChezick/Capstone1/blob/main/images/overlap1.png )
