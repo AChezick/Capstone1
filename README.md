@@ -3,7 +3,7 @@
 
 The link between air-quality and heath outcomes has been known ,essentially, forever; humans likely observed death from excessive smoke inhalation prior to mastering fire. 
 
-![](https://github.com/AChezick/Capstone1/blob/main/images/tame.png ) 
+![]( https://github.com/AChezick/Capstone1/blob/main/images/tame.png ) 
 image from https://www.smh.com.au/world/south-america/taming-fire-let-humans-thrive-now-man-made-flames-in-the-amazon-threaten-us-all-20190828-p52lmp.html 
 
 ___ 
@@ -18,7 +18,7 @@ Inhalation of PM can interfere with cellular processes by being mistaken for for
 
 Chronic inhalation for the measures of PM 2.5 and PM 10 have been shown to cause inflammation of the lungs and other tissues, which can lead to secondary events such at heart attacks, strokes, even inflammation of the kidney. A few days of extremely poor air quality has been shown to cause numerious inflammatory events in rodent models. Below is an image showing transfer of metals can be observed during gestation .
 
-![] (https://github.com/AChezick/Capstone1/blob/main/images/F2.large.jpg    )
+![]( https://github.com/AChezick/Capstone1/blob/main/images/F2.large.jpg    )
 Image credit: Uschi M. Graham (University of Kentucky, Lexington, KY) (Top) and Deborah Cory-Slechta (Bottom). 
 
 
@@ -78,19 +78,50 @@ I combined two similar data frames to create the master data frame for death eve
 
 Something to note is the POC column. This column and value indicates the observation number for that particular site. Since there are 13 different sites with 1-3 measures for PM 2.5 and PM 10 (and in no particular pattern for the number of measures per site per day) taking the average of all measures for each site ID for each day. My ending air quality data frame had roughly 25,000 entries post processing.
 
-Datetime indexing was completed so I could reindex this data frame and aggregrate by date into weeks for each site ID. Due to large gaps and wanting the most overlap of PM 2.5 & PM 10 measures, I chose the three sites that had the most data points.
+Date time indexing was completed so I could re-index this data frame and aggregate by date into weeks for each site ID. Due to large gaps and wanting the most overlap of PM 2.5 & PM 10 measures, I chose the three sites that had the most data points.
 
 # Visulation
 
-Starting with the overview. You can see the average annual PM 10 numbers are consistent. The average of all the years 22.7
+Starting with the overview. 
 
-![](https://github.com/AChezick/Capstone1/blob/main/images/annual_heart_events.png )
+
+The average of all the years 22.7
+
+![]( https://github.com/AChezick/Capstone1/blob/main/images/annual_heart_events.png )
+
+You can see the average annual PM 10 and PM 2.5 numbers are fairlyconsistent.
 
 ![]( https://github.com/AChezick/Capstone1/blob/main/images/annual_pm10.png)
 
-![](https://github.com/AChezick/Capstone1/blob/main/join_plot.png) 
+![]( https://github.com/AChezick/Capstone1/blob/main/images/annual25.png ) 
+
+Again, visually there appears to be some association between PM levels and heart events. It would again be important to state that its impossible to assign a causal link from a single event for a chronic disease (or any dynamical system). The goal of this capstone was to see if I could detect a statisitical association among the means for weeks on or after air quality levels in the worst 5% range from these measures.
+
+![]( https://github.com/AChezick/Capstone1/blob/main/images/overlap1.png )
+
+Since this data cannot be used for leglistation I considered this the entire sample of measures from a qulative perspective. This allows for extension of this project as offical data become available.
+
+![]( https://github.com/AChezick/Capstone1/blob/main/join_plot.png ) 
+
+#### For hypothesis testing I separated weekly events into two categories based six years of data for that Site. 
+
+Ho: I **will NOT** be able to detect significant increased differences in average death events at 0 or +1 weeks of high PM levels.
+
+Ho: I **will** be able to detect significant increased differences in average death events at 0 or +1 weeks of high PM levels.
+
+
+![]( https://github.com/AChezick/Capstone1/blob/main/images/scatter1.png  )
+
+#### Results
+
+
+PM_25 and Heart Events for week 0 indicate I should fail to reject the null hypothesis: -0.9, pvalue=0.38 
+
+PM_10 and Heart Events for week 0 indicate I should fail to reject the null hypothesis: -0.53 , pvalue=0.6 
+
 
 # Further exploration
+
 This capstone is far from a complete analysis. Only 4 of 13 sites were used to correlate with significant death events. 
 
 Refereces
