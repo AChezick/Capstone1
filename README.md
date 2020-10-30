@@ -3,7 +3,7 @@
 
 The link between air-quality and heath outcomes has been known ,essentially, forever; humans likely observed death from excessive smoke inhalation prior to mastering fire. 
 
-![]('https://github.com/AChezick/Capstone1/blob/main/images/tame.png' ) 
+![](https://github.com/AChezick/Capstone1/blob/main/images/tame.png ) 
 image from https://www.smh.com.au/world/south-america/taming-fire-let-humans-thrive-now-man-made-flames-in-the-amazon-threaten-us-all-20190828-p52lmp.html 
 
 ___ 
@@ -80,9 +80,9 @@ Datetime indexing was completed so I could reindex this data frame and aggregrat
 
 Starting with the overview. You can see the average annual PM 10 numbers are consistent. The average of all the years 22.7
 
-![](https://github.com/AChezick/Capstone1/blob/main/annual_pm10.png )
+![](https://github.com/AChezick/Capstone1/blob/main/images/annual_heart_events.png )
 
-![](https://github.com/AChezick/Capstone1/blob/main/annual_heart_events.png)
+![]( https://github.com/AChezick/Capstone1/blob/main/images/annual_pm10.png)
 
 ![](https://github.com/AChezick/Capstone1/blob/main/join_plot.png) 
 
