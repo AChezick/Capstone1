@@ -16,15 +16,19 @@ The chemical reaction of combustion decreases the sample size of matter and chan
 Inhalation of PM can interfere with cellular processes by being mistaken for foreign bodies leading to inflammatory events and from direct damage to cellular proteins leading to aberrant processes.
 
 
-___
+Chronic inhalation for the measures of PM 2.5 and PM 10 have been shown to cause inflammation of the lungs and other tissues, which can lead to secondary events such at heart attacks, strokes, even inflammation of the kidney. A few days of extremely poor air quality has been shown to cause numerious inflammatory events in rodent models. Below is an image showing transfer of metals can be observed during gestation .
+
+![] (https://github.com/AChezick/Capstone1/blob/main/images/F2.large.jpg    )
+Image credit: Uschi M. Graham (University of Kentucky, Lexington, KY) (Top) and Deborah Cory-Slechta (Bottom). 
 
 
-Chronic inhalation for the measures of PM 2.5 and PM 10 have been shown to cause inflammation of the lungs and other tissues, which can lead to secondary events such at heart attacks, strokes, even inflammation of the kidney. 
-
-A few days of extremely poor air quality has been shown to cause numerious inflammatory events in rodent models. More directly, numerious human studies 
-
+### Size Matters
 
 PM 2.5 measures reflect particulates that are about 1/35 the width of a human hair or as the name implies 2.5 microns (5). Particulates that measure positive for PM 2.5 are typically produced from combustion events such as metals metals. However, other organic compounds / proteins can be found in this range. PM 10 examples include dust, mold and and about 1/5th the size of a human hair (5).
+
+### Costs 
+
+Heatlh care costs of wide spread inflammation.
 
 # Question:
 
@@ -40,7 +44,7 @@ Ho: I **will** be able to detect significant increased differences in average de
 
 *According to data form Wikipedia(4) roughly 3 million of Colorado's six-million residents reside within the Denver-Aurora-Lakewood Metropolitan area.
 
-If there are any impacts from poor air quality on hospital death rates, this area is *more likely* than any other to have impacts on the overall death rates.
+If there are any impacts from poor air quality on hospital death rates, this area is *more likely* to show impacts on the overall death rates. This fact helped me focus my anlysis with a more managable range.
 
 
 # Data & Processing:
