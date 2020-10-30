@@ -28,7 +28,7 @@ PM 2.5 measures reflect particulates that are about 1/35 the width of a human ha
 
 ### Costs 
 
-Heatlh care costs of wide spread inflammation.
+Health care costs of chronic inflammatory diseases is in the trillions. It would be inappropriate to suggest that improving air quality would reduce all inflammatory disease outcomes for every person. However, the reduction of potential influences on costly chronic diseases would improve the quality of life for many humans and reduce health care costs associated with these diseases (7). 
 
 # Question:
 
@@ -149,3 +149,6 @@ https://www.epa.gov/pm-pollution/particulate-matter-pm-basics
 
 6. Proceedings of the National Academy of Sciences Jun 2020, 117 (25) 13856-13860; DOI: 10.1073/pnas.2008940117 
 https://www.pnas.org/content/117/25/13856
+
+7. The global burden of multiple chronic conditions: A narrative review
+https://doi.org/10.1016/j.pmedr.2018.10.008 
