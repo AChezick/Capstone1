@@ -1,14 +1,13 @@
 # Denver Metro Air Quality: Influence on overall Hospital Death Rates for Inflammatory related events?
 # Introduction
 
-The link between air-quality and heath outcomes has been known ,essentially, forever; humans likely observed death from excessive smoke inhalation prior to mastering fire. 
+The link between air-quality and heath outcomes has been known ,essentially, forever. More recently the link between less observable air quality measures and harmful health outcomes has been established (1).
 
 ![]( https://github.com/AChezick/Capstone1/blob/main/images/tame.png ) 
 image from https://www.smh.com.au/world/south-america/taming-fire-let-humans-thrive-now-man-made-flames-in-the-amazon-threaten-us-all-20190828-p52lmp.html 
 
 ___ 
 
-More recently the link between less observable air quality measures and harmful health outcomes has been established (1). 
 
 The chemical reaction of combustion decreases the sample size of matter and changes the nature of reactants into small harmful gases, some of which are measured and referred to as particulate matter (PM). 
 
