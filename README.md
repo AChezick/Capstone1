@@ -127,7 +127,7 @@ PM_10 and Heart Events for week 0 indicate I should fail to reject the null hypo
 
 # Further exploration
 
-This capstone is far from a complete analysis. Only 4 of 13 sites were used to correlate with significant death events. 
+This capstone is far from a complete analysis. In the end I only performed hypothesis testing on 1 of 13 sites for PM 2.5 and PM 10. There were several other air quality measures that could be assessed. Creating a complete workflow to test all hypotheses with confidence intervals is my next step. Further I was unable to successfully complete a hypothesis test for the +1 weeks. 
 
 Refereces
 
