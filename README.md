@@ -1,15 +1,26 @@
 # Denver Metro Air Quality: Influence on overall Hospital Death Rates for Inflammatory related events?
 # Introduction
 
-The link between air-quality and heath outcomes has been known ,essentially, forever; humans likely observed death from excessive smoke inhalation prior to mastering fire. <  cave man pic? > More recently the link between less observable air quality measures and harmful health outcomes has been established (1). 
+The link between air-quality and heath outcomes has been known ,essentially, forever; humans likely observed death from excessive smoke inhalation prior to mastering fire. ![]('https://static.ffx.io/images/$zoom_0.184%2C$multiply_0.9669%2C$ratio_1.776846%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/8aa3e25c26839c3363f65a334988b1c232ae67c5' )
 
-The chemical reaction of combustion decreases the sample size of matter and changes the nature of reactants into small harmful gases, some of which are measured and referred to as particulate matter (PM). < inflammation ?   > Inhalation of PM can interfere with cellular processes by being mistaken for foreign bodies leading to inflammatory events and from direct damage to cellular proteins leading to aberrant processes.
+
+More recently the link between less observable air quality measures and harmful health outcomes has been established (1). 
+
+The chemical reaction of combustion decreases the sample size of matter and changes the nature of reactants into small harmful gases, some of which are measured and referred to as particulate matter (PM). 
+
+
+Inhalation of PM can interfere with cellular processes by being mistaken for foreign bodies leading to inflammatory events and from direct damage to cellular proteins leading to aberrant processes.
 
 
 <   >
 
 
-Chronic inhalation for the measures of PM 2.5 and PM 10 have been shown to cause inflammation of the lungs and other tissues, which can lead to secondary events such at heart attacks, strokes, even inflammation of the kidney. PM 2.5 measures reflect particulates that are about 1/35 the width of a human hair or as the name implies 2.5 microns (5). Particulates that measure positive for PM 2.5 are typically produced from combustion events such as metals metals. However, other organic compounds / proteins can be found in this range. PM 10 examples include dust, mold and and about 1/5th the size of a human hair (5).
+Chronic inhalation for the measures of PM 2.5 and PM 10 have been shown to cause inflammation of the lungs and other tissues, which can lead to secondary events such at heart attacks, strokes, even inflammation of the kidney. 
+
+A few days of extremely poor air quality has been shown to cause numerious inflammatory events in rodent models. More directly, numerious human studies 
+
+
+PM 2.5 measures reflect particulates that are about 1/35 the width of a human hair or as the name implies 2.5 microns (5). Particulates that measure positive for PM 2.5 are typically produced from combustion events such as metals metals. However, other organic compounds / proteins can be found in this range. PM 10 examples include dust, mold and and about 1/5th the size of a human hair (5).
 
 # Question:
 
@@ -91,4 +102,5 @@ https://en.wikipedia.org/wiki/Denver_metropolitan_area
 5. PM Basics from EPA.
 https://www.epa.gov/pm-pollution/particulate-matter-pm-basics
 
-6. 
+6. Proceedings of the National Academy of Sciences Jun 2020, 117 (25) 13856-13860; DOI: 10.1073/pnas.2008940117 
+https://www.pnas.org/content/117/25/13856
