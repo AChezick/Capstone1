@@ -112,6 +112,13 @@ Ho: I **will** be able to detect significant increased differences in average de
 
 ![]( https://github.com/AChezick/Capstone1/blob/main/images/scatter1.png  )
 
+#### Results
+
+
+PM_25 and Heart Events for week 0 indicate I should fail to reject the null hypothesis: -0.9, pvalue=0.38 
+
+PM_10 and Heart Events for week 0 indicate I should fail to reject the null hypothesis: -0.53 , pvalue=0.6 
+
 
 # Further exploration
 
