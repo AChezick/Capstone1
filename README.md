@@ -80,9 +80,8 @@ Something to note is the POC column. This column and value indicates the observa
 
 Date time indexing was completed so I could re-index this data frame and aggregate by date into weeks for each site ID. Due to large gaps and wanting the most overlap of PM 2.5 & PM 10 measures, I chose the three sites that had the most data points.
 
-# Visulation
+# Visualization 
 
-Starting with the overview. 
 
 The six year distribution from this data set was normally distributed
 
