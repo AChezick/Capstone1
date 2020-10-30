@@ -3,7 +3,8 @@
 
 The link between air-quality and heath outcomes has been known ,essentially, forever; humans likely observed death from excessive smoke inhalation prior to mastering fire. 
 
-![]('' ) 
+![]('https://github.com/AChezick/Capstone1/blob/main/images/tame.png' ) 
+image from https://www.smh.com.au/world/south-america/taming-fire-let-humans-thrive-now-man-made-flames-in-the-amazon-threaten-us-all-20190828-p52lmp.html 
 
 ___ 
 
