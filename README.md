@@ -84,14 +84,20 @@ Date time indexing was completed so I could re-index this data frame and aggrega
 
 Starting with the overview. 
 
+The six year distribution from this data set was normally distributed
 
-The average of all the years 22.7
-
-![]( https://github.com/AChezick/Capstone1/blob/main/images/annual_heart_events.png )
+![]( https://github.com/AChezick/Capstone1/blob/main/images/normal_dist_hr_event.png )
 
 You can see the average annual PM 10 and PM 2.5 numbers are fairlyconsistent.
 
+![]( https://github.com/AChezick/Capstone1/blob/main/images/annual_heart_events.png )
+
+
+The average for the annual PM 10 levels was 22.7
+
 ![]( https://github.com/AChezick/Capstone1/blob/main/images/annual_pm10.png)
+
+Data from this site was missing for 2017.
 
 ![]( https://github.com/AChezick/Capstone1/blob/main/images/annual25.png ) 
 
