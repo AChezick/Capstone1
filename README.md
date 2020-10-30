@@ -28,7 +28,7 @@ PM 2.5 measures reflect particulates that are about 1/35 the width of a human ha
 
 ### Costs 
 
-Heatlh care costs of wide spread inflammation.
+Health care costs of chronic inflammatory diseases is in the trillions. It would be inappropriate to suggest that improving air quality would reduce all inflammatory disease outcomes for every person. However, the reduction of potential influences on costly chronic diseases would improve the quality of life for many humans and reduce health care costs associated with these diseases (7). 
 
 # Question:
 
@@ -80,18 +80,23 @@ Something to note is the POC column. This column and value indicates the observa
 
 Date time indexing was completed so I could re-index this data frame and aggregate by date into weeks for each site ID. Due to large gaps and wanting the most overlap of PM 2.5 & PM 10 measures, I chose the three sites that had the most data points.
 
-# Visulation
-
-Starting with the overview. 
+# Visualization 
 
 
-The average of all the years 22.7
+The six year distribution from this data set was normally distributed
 
-![]( https://github.com/AChezick/Capstone1/blob/main/images/annual_heart_events.png )
+![]( https://github.com/AChezick/Capstone1/blob/main/images/normal_dist_hr_event.png )
 
 You can see the average annual PM 10 and PM 2.5 numbers are fairlyconsistent.
 
+![]( https://github.com/AChezick/Capstone1/blob/main/images/annual_heart_events.png )
+
+
+The average for the annual PM 10 levels was 22.7
+
 ![]( https://github.com/AChezick/Capstone1/blob/main/images/annual_pm10.png)
+
+Data from this site was missing for 2017.
 
 ![]( https://github.com/AChezick/Capstone1/blob/main/images/annual25.png ) 
 
@@ -122,7 +127,7 @@ PM_10 and Heart Events for week 0 indicate I should fail to reject the null hypo
 
 # Further exploration
 
-This capstone is far from a complete analysis. Only 4 of 13 sites were used to correlate with significant death events. 
+This capstone is far from a complete analysis. In the end I only performed hypothesis testing on 1 of 13 sites for PM 2.5 and PM 10. There were several other air quality measures that could be assessed. Creating a complete workflow to test all hypotheses with confidence intervals is my next step. Further I was unable to successfully complete a hypothesis test for the +1 weeks. 
 
 Refereces
 
@@ -143,3 +148,6 @@ https://www.epa.gov/pm-pollution/particulate-matter-pm-basics
 
 6. Proceedings of the National Academy of Sciences Jun 2020, 117 (25) 13856-13860; DOI: 10.1073/pnas.2008940117 
 https://www.pnas.org/content/117/25/13856
+
+7. The global burden of multiple chronic conditions: A narrative review
+https://doi.org/10.1016/j.pmedr.2018.10.008 
