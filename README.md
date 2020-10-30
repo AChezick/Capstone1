@@ -17,8 +17,7 @@ Inhalation of PM can interfere with cellular processes by being mistaken for for
 
 Chronic inhalation for the measures of PM 2.5 and PM 10 have been shown to cause inflammation of the lungs and other tissues, which can lead to secondary events such at heart attacks, strokes, even inflammation of the kidney. A few days of extremely poor air quality has been shown to cause numerious inflammatory events in rodent models. Below is an image showing transfer of metals can be observed during gestation .
 
-![]( https://github.com/AChezick/Capstone1/blob/main/images/F2.large.jpg    )
-Image credit: Uschi M. Graham (University of Kentucky, Lexington, KY) (Top) and Deborah Cory-Slechta (Bottom). 
+___
 
 
 ### Size Matters
