@@ -114,6 +114,7 @@ Ho: I **will NOT** be able to detect significant increased differences in averag
 
 Ha: I **will** be able to detect significant increased differences in average death events at 0 or +1 weeks of high PM levels.
 
+![]( https://github.com/AChezick/Capstone1/blob/main/images/join_plot.png )
 
 ![]( https://github.com/AChezick/Capstone1/blob/main/images/scatter1.png  )
 ___
