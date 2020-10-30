@@ -1,10 +1,39 @@
 # Denver Metro Air Quality: Influence on overall Hospital Death Rates for Inflammatory related events?
 # Introduction
 
-The link between air-quality and heath outcomes has been known ,essentially, forever; humans likely observed death from excessive smoke inhalation prior to mastering fire. More recently the link between less observable poor air quality and harmful health outcomes has been estabolished (1). The chemical reaction of combistion decreases the sample size of matter and changes the nature of reactants into small harmful gases, some of which are measured and referred to as particulate matter (PM). Inhalation of PM can interfer with cellular processes by being mistaken for forgein bodies leading to inflammatory events and from direct damage to cellular proteins leading to abbarent processes.
+The link between air-quality and heath outcomes has been known ,essentially, forever; humans likely observed death from excessive smoke inhalation prior to mastering fire. 
+
+![]('' ) 
+
+___ 
+
+More recently the link between less observable air quality measures and harmful health outcomes has been established (1). 
+
+The chemical reaction of combustion decreases the sample size of matter and changes the nature of reactants into small harmful gases, some of which are measured and referred to as particulate matter (PM). 
+
+
+Inhalation of PM can interfere with cellular processes by being mistaken for foreign bodies leading to inflammatory events and from direct damage to cellular proteins leading to aberrant processes.
+
+
+___
+
+
+Chronic inhalation for the measures of PM 2.5 and PM 10 have been shown to cause inflammation of the lungs and other tissues, which can lead to secondary events such at heart attacks, strokes, even inflammation of the kidney. 
+
+A few days of extremely poor air quality has been shown to cause numerious inflammatory events in rodent models. More directly, numerious human studies 
+
+
+PM 2.5 measures reflect particulates that are about 1/35 the width of a human hair or as the name implies 2.5 microns (5). Particulates that measure positive for PM 2.5 are typically produced from combustion events such as metals metals. However, other organic compounds / proteins can be found in this range. PM 10 examples include dust, mold and and about 1/5th the size of a human hair (5).
 
 # Question:
-Can I detect any relationships among the air quality measures of PM 2.5 & PM 10 with emergencey room visits for all of Colorado?
+
+Can I detect any relationships among the air quality measures of PM 2.5 & PM 10 with emergency room visits for all of Colorado?
+
+### Hypothesis (qualitative) 
+
+Ho: I **will NOT** be able to detect significant increased differences in average death events at 0 or +1 weeks of high PM levels.
+
+Ho: I **will** be able to detect significant increased differences in average death events at 0 or +1 weeks of high PM levels.
 
 ## Rational:
 
@@ -18,7 +47,7 @@ The Environmental Protection Adgencey (EPA) has archives of air quality measures
 
 Impacts on death rates was assessed data from the Centers for Disease Control (CDC). I was able to locate national hospital data for weekly death counts by cause (3). These data **do not represent the total amount of deaths in Colorado during that week**. 
 
-The data was well organized and did not require much text cleaning. However, determining how to grab data to perform the hypothesis test was considerable.
+The data was well organized and did not require much text cleaning*. However, determining how to grab data to perform the hypothesis test was considerable. As having different numbers of PM measures for PM 2.5 and PM 10 at each site for each day/week equates to a complex 'standard' code block for required alignments. 
 
 ### First 5 rows of Weekly Death Events Post Cleaning
 
@@ -49,7 +78,12 @@ Datetime indexing was completed so I could reindex this data frame and aggregrat
 # Visulation
 
 Starting with the overview. You can see the average annual PM 10 numbers are consistent. The average of all the years 22.7
-https://github.com/AChezick/Capstone1/blob/main/annual_pm10.png 
+
+![](https://github.com/AChezick/Capstone1/blob/main/annual_pm10.png )
+
+![](https://github.com/AChezick/Capstone1/blob/main/annual_heart_events.png)
+
+![](https://github.com/AChezick/Capstone1/blob/main/join_plot.png) 
 
 # Further exploration
 This capstone is far from a complete analysis. Only 4 of 13 sites were used to correlate with significant death events. 
@@ -68,4 +102,8 @@ https://data.cdc.gov/NCHS/Weekly-Counts-of-Deaths-by-State-and-Select-Causes/muz
 4. Dener-Auroa-Lakewood Population 
 https://en.wikipedia.org/wiki/Denver_metropolitan_area 
 
-5. 
+5. PM Basics from EPA.
+https://www.epa.gov/pm-pollution/particulate-matter-pm-basics
+
+6. Proceedings of the National Academy of Sciences Jun 2020, 117 (25) 13856-13860; DOI: 10.1073/pnas.2008940117 
+https://www.pnas.org/content/117/25/13856
