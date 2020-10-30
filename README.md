@@ -82,15 +82,29 @@ Datetime indexing was completed so I could reindex this data frame and aggregrat
 
 # Visulation
 
-Starting with the overview. You can see the average annual PM 10 numbers are consistent. The average of all the years 22.7
+Starting with the overview. 
+
+
+The average of all the years 22.7
 
 ![](https://github.com/AChezick/Capstone1/blob/main/images/annual_heart_events.png )
 
+You can see the average annual PM 10 and PM 2.5 numbers are fairlyconsistent.
+
 ![]( https://github.com/AChezick/Capstone1/blob/main/images/annual_pm10.png)
 
-![](https://github.com/AChezick/Capstone1/blob/main/join_plot.png) 
+![]( https://github.com/AChezick/Capstone1/blob/main/join_plot.png ) 
+
+Since this data cannot be used for leglistation I considered this the entire sample of measures from a qulative perspective. This allows for extension of this project as offical data become available.
+
+#### For hypothesis testing I separated weekly events into two categories based six years of data for that Site. 
+
+![]( https://github.com/AChezick/Capstone1/blob/main/join_plot.png ) 
+
+Again, visually there appears to be some association between PM levels and
 
 # Further exploration
+
 This capstone is far from a complete analysis. Only 4 of 13 sites were used to correlate with significant death events. 
 
 Refereces
