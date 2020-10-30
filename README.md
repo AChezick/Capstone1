@@ -102,7 +102,7 @@ Data from this site was missing for 2017.
 
 ___
 
-Among the three sites tested The Daily Mean Concentration was fairly consistent 7.3 , 9.6, 7.4 
+Among the three sites tested The Daily Mean Concentration was fairly consistent 7.3 , 7.4 , 9.6 
 
 ![]( https://github.com/AChezick/Capstone1/blob/main/images/variance.png ) 
 
