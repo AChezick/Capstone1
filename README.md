@@ -83,16 +83,21 @@ Date time indexing was completed so I could re-index this data frame and aggrega
 # Visualization 
 
 
-The six year distribution from this data set was normally distributed
+The six year distribution from this data set was normally distributed.
 
 ![]( https://github.com/AChezick/Capstone1/blob/main/images/normal_dist_hr_event.png )
 
-You can see the average annual PM 10 and PM 2.5 numbers are fairlyconsistent.
+You can see the average annual PM 10 and PM 2.5 numbers are fairly consistent.
 
 ![]( https://github.com/AChezick/Capstone1/blob/main/images/annual_heart_events.png )
 
+___
+Reference for medically significant air quality levels.
 
-The average for the annual PM 10 levels was 22.7
+![]( https://www.epa.gov/wildfire-smoke-course/wildfire-smoke-and-your-patients-health-air-quality-index )
+
+
+The average for the annual PM 10 levels was 22.7, which is considered safe. 
 
 ![]( https://github.com/AChezick/Capstone1/blob/main/images/annual_pm10.png)
 
@@ -108,11 +113,12 @@ Among the three sites tested The Daily Mean Concentration was fairly consistent 
 
 ___
 
-Again, visually there appears to be some association between PM levels and heart events. It would again be important to state that its impossible to assign a causal link from a single event for a chronic disease (or any dynamical system). The goal of this capstone was to see if I could detect a statisitical association among the means for weeks on or after air quality levels in the worst 5% range from these measures.
+Again, visually there appears to be some association between PM levels and heart events. It would again be important to state that its impossible to assign a causal link from a single event for a chronic disease (or any dynamical system). The goal of this capstone was to see if I could detect a statistical association among the means for weeks on or after air quality levels in the worst 5% range from these measures.
+
 
 ![]( https://github.com/AChezick/Capstone1/blob/main/images/overlap1.png )
 
-Since this data cannot be used for leglistation I considered this the entire sample of measures from a qulative perspective. This allows for extension of this project as offical data become available.
+Since this data cannot be used for legislation I considered this the entire sample of measures from a qualitative perspective. This allows for extension of this project as official data become available.
 
 ![]( https://github.com/AChezick/Capstone1/blob/main/join_plot.png ) 
 
@@ -141,7 +147,7 @@ PM_10 and Heart Events for week 0 indicate I should fail to reject the null hypo
 
 # Further exploration
 
-This capstone is far from a complete analysis. In the end I only performed hypothesis testing on 1 of 13 sites for PM 2.5 and PM 10. There were several other air quality measures that could be assessed. Creating a complete workflow to test all hypotheses with confidence intervals is my next step. Further I was unable to successfully complete a hypothesis test for the +1 weeks. 
+This capstone is far from a complete analysis. In the end I only performed hypothesis testing on 1 of 13 sites for PM 2.5 and PM 10. There were several other air quality measures that could be assessed.  Further I was unable to successfully complete a hypothesis test for the +1 weeks. Creating a complete workflow to test all hypotheses with confidence intervals is my next step, Bonferronies will be required. 
 ___
 
 ___
