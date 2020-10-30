@@ -108,14 +108,20 @@ Since this data cannot be used for leglistation I considered this the entire sam
 
 ![]( https://github.com/AChezick/Capstone1/blob/main/join_plot.png ) 
 
-#### For hypothesis testing I separated weekly events into two categories based six years of data for that Site. 
+#### For hypothesis testing I separated weekly events into two categories based six years of data for that Site ID. 
 
 Ho: I **will NOT** be able to detect significant increased differences in average death events at 0 or +1 weeks of high PM levels.
 
-Ho: I **will** be able to detect significant increased differences in average death events at 0 or +1 weeks of high PM levels.
+Ha: I **will** be able to detect significant increased differences in average death events at 0 or +1 weeks of high PM levels.
 
+![]( https://github.com/AChezick/Capstone1/blob/main/images/join_plot.png )
 
 ![]( https://github.com/AChezick/Capstone1/blob/main/images/scatter1.png  )
+___
+
+![]( https://github.com/AChezick/Capstone1/blob/main/images/scatter_pm10.png )
+
+___ 
 
 #### Results
 
@@ -128,6 +134,9 @@ PM_10 and Heart Events for week 0 indicate I should fail to reject the null hypo
 # Further exploration
 
 This capstone is far from a complete analysis. In the end I only performed hypothesis testing on 1 of 13 sites for PM 2.5 and PM 10. There were several other air quality measures that could be assessed. Creating a complete workflow to test all hypotheses with confidence intervals is my next step. Further I was unable to successfully complete a hypothesis test for the +1 weeks. 
+___
+
+___
 
 Refereces
 
