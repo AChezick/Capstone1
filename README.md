@@ -1,8 +1,11 @@
 # Denver Metro Air Quality: Influence on overall Hospital Death Rates for Inflammatory related events?
 # Introduction
 
-The link between air-quality and heath outcomes has been known ,essentially, forever; humans likely observed death from excessive smoke inhalation prior to mastering fire. ![]('https://www.smh.com.au/world/south-america/taming-fire-let-humans-thrive-now-man-made-flames-in-the-amazon-threaten-us-all-20190828-p52lmp.html' ) 
+The link between air-quality and heath outcomes has been known ,essentially, forever; humans likely observed death from excessive smoke inhalation prior to mastering fire. 
 
+![]('' ) 
+
+___ 
 
 More recently the link between less observable air quality measures and harmful health outcomes has been established (1). 
 
@@ -12,7 +15,7 @@ The chemical reaction of combustion decreases the sample size of matter and chan
 Inhalation of PM can interfere with cellular processes by being mistaken for foreign bodies leading to inflammatory events and from direct damage to cellular proteins leading to aberrant processes.
 
 
-<   >
+___
 
 
 Chronic inhalation for the measures of PM 2.5 and PM 10 have been shown to cause inflammation of the lungs and other tissues, which can lead to secondary events such at heart attacks, strokes, even inflammation of the kidney. 
