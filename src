@@ -128,3 +128,37 @@ iiboo = np.array(ibo['PM_10'])
 iib33 = np.array(ib3['PM_10'])
 
 stats.ttest_ind(iiboo,iib33, equal_var = False, nan_policy='omit')
+
+
+
+Graphing
+
+sns.jointplot(x='PM_10' , y = 'Diseases_of_heart', data =b1 , kind = 'reg')
+
+sns.scatterplot('PM_25', 'Diseases_of_heart', hue='MMWR_Year', data=death_copy)
+plt.title('Relation between PM2.5 and Events')
+plt.xlabel('PM2.5')
+plt.ylabel('Deaths Heart Disease')
+plt.show()
+
+fig, ax = plt.subplots(1, figsize=(16, 4))
+
+x = list(range(1, 314)) 
+
+
+
+ax.plot(x, heart1, label="Heart Events")
+ax.plot(x, pm_pm25_1aa , label="PM 2.5 (ug/m3)")
+ax.plot(x, pm_10a, label = 'PM 10 (ug/m3)')
+ax.legend()
+ax.set_xlabel("Day")
+ax.set_ylabel("Number of Event & PM")
+ax.set_title("Overlap of Events")
+
+heart_death_by_year = death_copy.groupby('MMWR_Year')['Diseases_of_heart'].mean().reset_index()
+plt.bar(heart_death_by_year ['MMWR_Year'], heart_death_by_year ['Diseases_of_heart'])
+plt.xticks(heart_death_by_year ['MMWR_Year'].tolist())
+plt.title('Annual Deaths from Diseases of Heart ')
+plt.xlabel('Years')
+plt.ylabel('Mean num of Events')
+plt.show()
