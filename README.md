@@ -3,8 +3,8 @@
 
 The link between air-quality and heath outcomes has been known ,essentially, forever. More recently the link between less observable air quality measures and harmful health outcomes has been established (1).
 
-![]( https://github.com/AChezick/Capstone1/blob/main/images/tame.png ) 
-image from https://www.smh.com.au/world/south-america/taming-fire-let-humans-thrive-now-man-made-flames-in-the-amazon-threaten-us-all-20190828-p52lmp.html 
+![]( https://github.com/AChezick/Capstone1/blob/main/images/180820-AIR-QUALITY-SKYLINE-CITYSCAPE-POLLUTION-WEATHER-COWX-KEVINJBEATY-02.jpg ) 
+image credit (Kevin J. Beaty/Denverite) (8) 
 
 ___ 
 
@@ -92,7 +92,7 @@ You can see the average annual PM 10 and PM 2.5 numbers are fairly consistent.
 ___
 Reference for medically significant air quality levels.
 
-![]( https://www.epa.gov/wildfire-smoke-course/wildfire-smoke-and-your-patients-health-air-quality-index )
+![]( https://github.com/AChezick/Capstone1/blob/main/images/aqitableforcourse.png )
 
 
 The average for the annual PM 10 levels was 22.7, which is considered safe. 
@@ -172,3 +172,6 @@ https://www.pnas.org/content/117/25/13856
 
 7. The global burden of multiple chronic conditions: A narrative review
 https://doi.org/10.1016/j.pmedr.2018.10.008 
+
+8. Image reference 
+https://www.cpr.org/2019/07/29/when-the-air-gets-dirty-in-denver-should-you-head-for-the-hills/ 
